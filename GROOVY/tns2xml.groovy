@@ -78,9 +78,10 @@ new MarkupBuilder(writer).Root{
 }
 
 println(writer)
-
 def xmlFile = "/Users/hlf/Desktop/pp01_027_output.xml"
 PrintWriter pw = new PrintWriter(xmlFile)
 pw.write(writer.toString())
 pw.close()
+
+
 
